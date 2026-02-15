@@ -59,4 +59,6 @@ ansible-playbook -i inventory site.yml
 
 The output is emitted as one JSON object containing `events` and `play_recap`.
 
-![Example output](images/output.png)
+![Example output](images/output-1.png)
+
+![Example output](images/output-2.png)
