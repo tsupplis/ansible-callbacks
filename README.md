@@ -20,6 +20,8 @@ It currently documents one callback plugin (`changed_debug`) and is structured t
 
 By default, unchanged `ok` tasks are hidden to reduce noise.
 
+This roles allows easy parsing of the result being a full json structure.
+
 ## Enable `changed_debug`
 
 From the project directory, export:
@@ -56,3 +58,5 @@ ansible-playbook -i inventory site.yml
 ```
 
 The output is emitted as one JSON object containing `events` and `play_recap`.
+
+![Example output](images/output.png)
